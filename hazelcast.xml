@@ -21,6 +21,8 @@
 
   <properties>
     <property name="hazelcast.discovery.enabled">true</property>
+    <property name="hazelcast.http.healthcheck.enabled">true</property>
+    <property name="hazelcast.health.monitoring.level">Noisy</property>
   </properties>
 
   <network>
