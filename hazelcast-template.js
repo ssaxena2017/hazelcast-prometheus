@@ -35,7 +35,7 @@
 				},
 				"spec": {
 					"containers": [{
-						"image": "bibinwilson/hazelcast-prometheus:${HAZELCAST_VERSION}",
+						"image": "bibinwilson/hazelcast-prometheus:2",
 						"name": "hazelcast-openshift",
 						"env": [{
 							"name": "HAZELCAST_KUBERNETES_SERVICE_DNS",
